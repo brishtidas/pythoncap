@@ -1,0 +1,5 @@
+name postive numbers
+num=x
+print("original number:",num)
+new_num= list(filter(lambda x:x>0 , num))
+print("Postive number in the list:", new_num)
